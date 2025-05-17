@@ -78,7 +78,7 @@ FROM Booking b
 WHERE b.start_date BETWEEN '2025-06-01' AND '2025-08-31';
 
 
--- The SELECT 'Query 2: ...' AS description; lines act as headers, clearly separating each EXPLAIN result
+-- The SELECT 'Query 2: ...' AS description; lines act as headers, clearly separating each EXPLAIN result. They're optonal though; you can choose to add them or not. The choice is yours.
 -- description
 -- Query 1: INNER JOIN Before Indexing
 -- id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra
