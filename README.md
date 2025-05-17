@@ -26,16 +26,16 @@ The repository is organized into the following directories and files:
 │   └── README.md               # Explanation of sample data choices
 │
 ├── database-adv-script/
-│   ├── joins_queries.sql                     # SQL for complex join queries (Task 0)
-│   ├── subqueries.sql                        # SQL for subqueries (Task 1)
-│   ├── aggregations_and_window_functions.sql # SQL for aggregations and window functions (Task 2)
-│   ├── database_index.sql                    # SQL for creating indexes (Task 3)
-│   ├── performance.sql                       # SQL for complex query optimization (Task 4)
-│   ├── partitioning.sql                      # SQL for table partitioning (Task 5)
-│   ├── index_performance.md                  # Indexing performance analysis (Task 3)
-│   ├── optimization_report.md                # Query optimization report (Task 4)
-│   ├── partition_performance.md              # Partitioning performance report (Task 5)
-│   ├── performance_monitoring.md             # Performance monitoring report (Task 6)
+│   ├── joins_queries.sql                     # SQL for complex join queries
+│   ├── subqueries.sql                        # SQL for subqueries
+│   ├── aggregations_and_window_functions.sql # SQL for aggregations and window functions
+│   ├── database_index.sql                    # SQL for creating indexes
+│   ├── performance.sql                       # SQL for complex query optimization
+│   ├── partitioning.sql                      # SQL for table partitioning
+│   ├── index_performance.md                  # Indexing performance analysis
+│   ├── optimization_report.md                # Query optimization report
+│   ├── partition_performance.md              # Partitioning performance report
+│   ├── performance_monitoring.md             # Performance monitoring report
 │   └── README.md                             # Project Overview
 │
 └── README.md                   # Main project overview
