@@ -42,10 +42,12 @@ EXPLAIN SELECT p.property_id, p.name, p.location
 FROM Property p WHERE p.name = 'Cozy Cottage';
 ```
 **Before Indexing**
+
 ![c](index_performance_images/B4Index3.PNG)
 
 
 **After Indexing**
+
 ![c](index_performance_images/AIndex3.PNG)
 
 
@@ -57,8 +59,16 @@ EXPLAIN SELECT b.booking_id, b.start_date, b.total_price
 FROM Booking b WHERE b.start_date BETWEEN '2025-06-01' AND '2025-08-31';
 ```
 **Before Indexing**
+
 ![d](index_performance_images/B4Index4.PNG)
 
 
 **After Indexing**
 ![d](index_performance_images/AIndex4.PNG)
+
+
+## Performance Measurement
+- Query speed improved significantly.
+- idx_booking_user_id enhanced JOIN and subquery performance
+- idx_booking_start_date boosted date-range query efficiency
+- idx_property_name optimized search queries
