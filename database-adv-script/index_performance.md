@@ -10,20 +10,23 @@ This report analyzes three queries, focusing on User.user_id (PRIMARY KEY), Book
 ```
 EXPLAIN SELECT b.booking_id, u.user_id, u.first_name, u.last_name, b.start_date, b.end_date
 FROM Booking b INNER JOIN User u ON b.user_id = u.user_id;
+```
+![a](index_performance_images/B4Index1.PNG)
 
+```
 EXPLAIN SELECT u.user_id, u.first_name, u.last_name
 FROM User u WHERE (SELECT COUNT(*) FROM Booking b WHERE b.user_id = u.user_id) > 3;
+```
+![b](index_performance_images/B4Index2.PNG)
 
+```
 EXPLAIN SELECT p.property_id, p.name, p.location
 FROM Property p WHERE p.name = 'Cozy Cottage';
+```
+![c](index_performance_images/B4Index3.PNG)
 
+```
 EXPLAIN SELECT b.booking_id, b.start_date, b.total_price
 FROM Booking b WHERE b.start_date BETWEEN '2025-06-01' AND '2025-08-31';
 ```
-
-
-
-![a](alx-airbnb-database/database-adv-script/index_performance_images/B4Index1.PNG)
-![b](alx-airbnb-database/database-adv-script/index_performance_images/B4Index2.PNG)
-![c](alx-airbnb-database/database-adv-script/index_performance_images/B4Index3.PNG)
-![d](alx-airbnb-database/database-adv-script/index_performance_images/B4Index4.PNG)
+![d](index_performance_images/B4Index4.PNG)
