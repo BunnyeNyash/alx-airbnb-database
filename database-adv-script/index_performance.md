@@ -23,7 +23,7 @@ FROM Booking b WHERE b.start_date BETWEEN '2025-06-01' AND '2025-08-31';
 
 
 
-![a](database-adv-script/index_performance_images/B4Index1.PNG)
-![b](database-adv-script/index_performance_images/B4Index2.PNG)
-![c](database-adv-script/index_performance_images/B4Index3.PNG)
-![d](database-adv-script/index_performance_images/B4Index4.PNG)
+![a](alx-airbnb-database/database-adv-script/index_performance_images/B4Index1.PNG)
+![b](alx-airbnb-database/database-adv-script/index_performance_images/B4Index2.PNG)
+![c](alx-airbnb-database/database-adv-script/index_performance_images/B4Index3.PNG)
+![d](alx-airbnb-database/database-adv-script/index_performance_images/B4Index4.PNG)
