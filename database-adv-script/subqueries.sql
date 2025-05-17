@@ -9,7 +9,7 @@ USE alx_airbnb_database;
 -- Query 1: Non-correlated subquery to find properties with average rating > 4.0
 SELECT 
     p.property_id,
-    p.name AS property_name,
+    p.name AS property_name
 FROM Property p
 WHERE p.property_id IN (
     SELECT r.property_id
@@ -22,7 +22,7 @@ WHERE p.property_id IN (
 SELECT 
     u.user_id,
     u.first_name,
-    u.last_name,
+    u.last_name
 FROM User u
 WHERE (
     SELECT COUNT(*)
