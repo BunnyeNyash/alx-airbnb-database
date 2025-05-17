@@ -14,3 +14,5 @@ CREATE INDEX idx_booking_start_date ON Booking(start_date);
 
 -- Index on Property.name (used in GROUP BY)
 CREATE INDEX idx_property_name ON Property(name);
+
+EXPLAIN ANALYZE;
